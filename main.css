@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+}
+
+.heading,
+.paragraph {
+    color: greenyellow;
+}
+
+/* Css Variable */
+:root {
+    --text-color: green;
+    --icon-color: violet;
+}
+
+h1 {
+    color: var(--icon-color);
+}
+
+.box {
+    border: 2px solid greenyellow;
+    height: 100px;
+    width: 100px;
+    /* float: left; */
+}
+
+.box4 {
+    /* background-image:
+        url(https://picsum.photos/200),
+        url(https://picsum.photos/seed/picsum/200/300); */
+    background-image: linear-gradient(0, rgba(138, 21, 21, 0.5), rgba(63, 78, 144, 0.041)), url(https://picsum.photos/seed/picsum/200/300);
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

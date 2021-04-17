@@ -1,0 +1,11 @@
+ĐỘ ưu tiên trong CSS
+
+## Internal & External:
+Internal và External thì file nào đặt dưới cùng trong thẻ head thì sẽ ưu tiên hơn
+## Xét điểm ưu tiên
+1.Inline - 1000 điểm
+2.#id - 100
+3.class - 10
+4.tag - 1
+
+

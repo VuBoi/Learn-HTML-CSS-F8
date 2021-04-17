@@ -1,0 +1,53 @@
+##Đặt biến css, dùng global và local
+:root{
+    --ten-bien: thuoctinh;
+}
+
+##CSS Units Gồm 2 nhóm
+1.Absolute unit(tuyệt đối): Kích thước không thay đổi
+- px ( pixel)
+- mấy cái khác hiếm khi dùng tới
+2.Relative unit(tương đối): Kích thước thay đổi ( dùng trong Responsive)
+- % ( phụ thuộc vào thằng chứa nó )
+- rem ( rem phụ thuộc vào thẻ html ) ( 100% tương đương 16px, thường được dùng hơn )
+ví dụ: html{ font-size: 20px } h1{ font-size: 1rem } tương ứng 1rem = 20px;
+- em ( tương tự như rem nhưng em phụ thuộc vào thẻ html gần nhất )
+- vw ( kích thước trình duyệt chiều ngang ) 
+- vh ( kích thước trình duyệt chiều dọc )
+- vmin
+- vmax
+- ex
+- ch
+
+##Css Functions
+- var()
+- linear-gradient()
+- rgba()
+- rgb()
+- calc()
+- attr()
+
+##CSS pseudo-classes (Lớp giả)
+:root
+:hover
+:active
+:focus
+:first-child
+:last_child
+.....
+
+#CSS pseudo-elements
+https://www.w3schools.com/css/css_pseudo_classes.asp
+::before
+::after
+::first-line
+::first-letter
+::selections
+
+
+##
+background-clip:
+background-origin
+background shorthand
+
+background: url() no-repeat center / contain;
