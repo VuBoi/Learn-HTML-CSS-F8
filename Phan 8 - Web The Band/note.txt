@@ -15,6 +15,5 @@ Phân tích website:
 +Tour
 +Contact
 +Image
-+Footer
 4.Footer 
 ##Dựng Base( Xây móng):
