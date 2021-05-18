@@ -17,3 +17,7 @@ Phân tích website:
 +Image
 4.Footer 
 ##Dựng Base( Xây móng):
+
+
+Thẻ in-line thêm float thành thẻ block
+chỉ có float thì mới dùng đc margin âm
